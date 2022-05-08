@@ -1,0 +1,7 @@
+.footerStyle{
+    background-color: rgb(250, 215, 225);
+    padding: 25px 50px 75px 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

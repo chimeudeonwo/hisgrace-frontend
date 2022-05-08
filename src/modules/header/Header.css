@@ -1,0 +1,11 @@
+
+.headerContainer{
+    background-color: antiquewhite;
+    padding: 25px 50px 75px 100px;
+}
+
+.contactPosition{
+    position: relative;
+    bottom: -75px;
+    left: 20%;
+}

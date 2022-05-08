@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.color {
+  color: aqua;
+}
+
+#colorId {
+  color: blue;
+}
+
+ .headerStyle {
+   border: 2px solid red;
+   background-color: #61dafb;
+   color: red;
+}
+
+.leftSideBarStyle {
+  position: absolute;
+   top: 170px;
+   border: 2px solid blue;
+   left: 0px;
+   background-color: white;
+   color: black;
+   height: 100%;
+   width: 15%;
+   display: block;
+}
+
+.mainBarStyle{
+  position: absolute;
+  top: 170px;
+  border: 2px solid orange;
+  left: 15%;
+  background-color: white;
+  color: black;
+  height: 100%;
+  width: 70%;
+  display: block;
+}
+
+.rightSideBarStyle {
+  position: absolute;
+   top: 170px;
+   border: 2px solid palevioletred;
+   right: 0;
+   background-color: white;
+   color: black;
+   height: 100%;
+   width: 15%;
+   display: block;
+}
+
+.mainBarHeader{
+  position: relative;
+  top:-22px;
+  border: 2px solid green;
+  display: block;
+}
+
+.mainBarBody{
+  position: absolute;
+  top: 170px;
+  left: 125%;
+  background-color: white;
+  color: black;
+  height: 90%;
+  width: 70%;
+  border: 2px solid red;
+  display: block;
+}
+
+.headerTextStyle {
+  color: DodgerBlue;
+  font-family: Arial;
+  text-align: center;
+}
+
+.homeContentInsideMainBar {
+    position: relative;
+    top: -90px;
+    border: 3px solid gold;
+    display: none;
+}
+
+.dropDown {
+    display: none;
+}
+
+.styleLogo {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 100px;
+    height: 75px;
+}
+
+.useStateExample{
+  position: absolute;
+  left: 200px;
+}
+
